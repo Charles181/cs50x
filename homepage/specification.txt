@@ -1,0 +1,32 @@
+HTML pages:
+    -index.html
+    -about.html
+    -hobbies.html
+    -showcase.html
+
+HTML tags:
+    1.-<link>
+    2.-<script>
+    3.-<div>
+    4.-<button>
+    5.-<span>
+    6.-<a>
+    7.-<nav>
+    8.-<hr>
+    9.-<img>
+    10.-<h1>
+    And some more...
+
+Use of bootstrap:
+    Used several bootstrap elements, such as cards, containers, navbar, columns and more to give
+    the page a better and more responsive look.
+
+Use of Javascript:
+    Most of the site doesn't use Javascript, except for the showcase.html page.
+    In that page, I created a random password creator, which uses Javascript functions
+    in order to generate a random password, given the type of characters wanted and the
+    desired length. It also modifies a small div's background color to indicate strength
+    of the password.
+    Also, I created a JS function to add an event listener to the copy icon, in order to
+    make it copy the generated password into the clipboard.
+
