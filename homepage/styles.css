@@ -9,6 +9,27 @@
     box-shadow: 0 15px 30px 0 rgba(0, 80, 255, .5);
 }
 
+.main-card{
+    animation: cardAnimation 1s ease-in-out;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+@keyframes cardAnimation {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100%{
+        transform: scale(1);
+        opacity: 1;
+
+    }
+}
+
 /*Styling for password generator*/
 .container-p{
     max-width: 500px;
